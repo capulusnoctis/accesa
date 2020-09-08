@@ -18,22 +18,22 @@ import Header from "../components/Header.svelte";
         margin: auto 4%;
     }
     div.main div.uno {
-        background-color: #a2a8c57c;
+        background-color: #c6c9da4b;
         grid-column: 1;
         height:100vh;
     }
     div.main div.dos {
-        background-color: #a2a8c57c;
+        background-color: #c6c9da4b;
         grid-column: 2;
         height:100vh;
     }
     div.main div.tres {
-        background-color: #a2a8c57c;
+        background-color: #c6c9da4b;
         grid-column: 3;
         height:100vh;
     }
     div.main div.cuatro {
-        background-color: #a2a8c57c;
+        background-color: #c6c9da4b;
         grid-column: 4;
         height:100vh;
     }

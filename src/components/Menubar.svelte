@@ -18,8 +18,8 @@
     nav li:last-child {
         grid-column: 4;
         justify-content: center;
-        font-size: 1.5em; 
-        padding: 1.5em;
+        font-size: 1.6em; 
+        padding: 1em;
         align-items: center;
     }
     nav li i {
