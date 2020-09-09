@@ -25,7 +25,7 @@
         margin-bottom: auto;
         font-weight: normal;
     }
-    div.Services-content video {
+    div.Services-content iframe {
         align-self: stretch;
         width: 100%;
     }
@@ -57,6 +57,6 @@
             <li>Implementación de formatos.</li>
             <li>Elaboración de flujogramas.</li>
         </ul>
-        <video controls></video>
+        <iframe width="560" title="Example Video" height="315" src="https://www.youtube.com/embed/OasbYWF4_S8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </div>
