@@ -3,15 +3,18 @@
 </script>
 
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&family=Roboto&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Karla&family=Roboto&display=swap');
     div.Title {
-        grid-column: 1 / 5;
         text-align: center;
+        margin: auto;
     }
     div.Title h3 {
         grid-column: inherit;
         color: #03045E;
         font-family: 'Karla', sans-serif;
+        font-weight: 400;
+        font-size: 2.8em;
+        letter-spacing: 0.3em;
     }
 </style>
 

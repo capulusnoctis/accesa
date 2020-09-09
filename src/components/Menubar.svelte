@@ -1,3 +1,9 @@
+<script>
+    function doSomething() {
+        alert("Desplegar menú!");
+    }
+</script>
+
 <style>
     div.Menubar, div.Menubar nav {
         display: grid;
@@ -30,6 +36,6 @@
 <div class="Menubar">
     <nav class="Menubar-content">
         <li><img src="#" alt="ACCESA LOGO"></li>
-        <li><i class="fas fa-bars"></i></li>
+        <li><i on:click={doSomething} class="fas fa-bars"></i></li>
     </nav>
 </div>
