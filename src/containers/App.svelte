@@ -2,6 +2,7 @@
     import Header from '../components/Header.svelte';
     import About from '../components/About.svelte';
     import Services from '../components/Services.svelte';
+    import Benefits from '../components/Benefits.svelte';
 </script>
 
 <style>
@@ -44,6 +45,7 @@
     <Header/>
     <About/>
     <Services/>
+    <Benefits/>
     <!-- <div class="uno"></div>
     <div class="dos"></div>
     <div class="tres"></div>
