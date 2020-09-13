@@ -10,7 +10,7 @@ import Menubar from "./Menubar.svelte";
         grid-column: 1 / 5;
     }
     div.Header-title h1 {
-        font-size: 3.2em;
+        font-size: 3em;
         color: #49484D;
         font-family: 'Karla', sans-serif;
         font-weight: 700;

@@ -7,7 +7,6 @@
     @import url('https://fonts.googleapis.com/css2?family=Karla&family=Roboto&display=swap');
     div.Title {
         text-align: center;
-        margin: auto;
         grid-column: 1 / 5;
     }
     div.Title h3 {
@@ -15,7 +14,7 @@
         color: #03045E;
         font-family: 'Karla', sans-serif;
         font-weight: 400;
-        font-size: 2.7em;
+        font-size: 2.3em;
         letter-spacing: 0.3em;
     }
 </style>
