@@ -5,13 +5,13 @@ import Title from './Title.svelte';
 <style>
     div.Benefits {
         grid-column: 1 / 5;
-        padding: 2em;
         margin-top: 6em;
         
         background-color: #0077B6;
     }
     div.Benefits-content {
         font-family: 'Roboto', sans-serif;
+        padding: 0 2em 2em 1em;
 
         color: #F3F3F3;
     }

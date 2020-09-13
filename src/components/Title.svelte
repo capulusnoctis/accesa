@@ -8,6 +8,7 @@
     div.Title {
         text-align: center;
         margin: auto;
+        grid-column: 1 / 5;
     }
     div.Title h3 {
         grid-column: inherit;
