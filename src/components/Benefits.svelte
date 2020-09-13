@@ -6,12 +6,13 @@ import Title from './Title.svelte';
     div.Benefits {
         grid-column: 1 / 5;
         margin-top: 6em;
+        padding-top: 2em;
         
         background-color: #0077B6;
     }
     div.Benefits-content {
         font-family: 'Roboto', sans-serif;
-        padding: 0 2em 2em 1em;
+        padding: 1em 2em 2em 1em;
 
         color: #F3F3F3;
     }
