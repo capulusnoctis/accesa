@@ -11,7 +11,7 @@ function checkFormat() {
 </script>
 
 <style>
-    div.Contact {
+    section.Contact {
         grid-column: 1 / 5;
         margin-top: 6em;
     }
@@ -77,7 +77,7 @@ function checkFormat() {
     }
 </style>
 
-<div class="Contact">
+<section class="Contact" id="CONTACTO">
     <Title content="CONTACTO"/>
     <div class="Contact-content">
         <p>
@@ -121,4 +121,4 @@ function checkFormat() {
             <button type="submit" class="button-submit">Enviar</button>
         </form>
     </div>
-</div>
+</section>

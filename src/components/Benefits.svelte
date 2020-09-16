@@ -3,7 +3,7 @@ import Title from './Title.svelte';
 </script>
 
 <style>
-    div.Benefits {
+    section.Benefits {
         grid-column: 1 / 5;
         margin-top: 6em;
         padding-top: 2em;
@@ -26,7 +26,7 @@ import Title from './Title.svelte';
     }
 </style>
 
-<div class="Benefits">
+<section class="Benefits" id="BENEFICIOS">
     <Title content="BENEFICIOS" inlineStyle='color: #F3F3F3;' />
     <div class="Benefits-content">
         <ul>
@@ -36,4 +36,4 @@ import Title from './Title.svelte';
             <li>Certificado de Buenas Prácticas en Gestión de Reciclaje </li>
         </ul>
     </div>
-</div>
+</section>

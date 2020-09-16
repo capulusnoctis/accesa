@@ -4,6 +4,7 @@
     import Services from '../components/Services.svelte';
     import Benefits from '../components/Benefits.svelte';
     import Contact from '../components/Contact.svelte';
+    import Footer from '../components/Footer.svelte';
 </script>
 
 <style>
@@ -20,36 +21,14 @@
         margin: auto 4%;
         z-index: -2;
     }
-    /* div.main div.uno {
-        background-color: #c6c9da4b;
-        grid-column: 1;
-        height:200vh;
-    }
-    div.main div.dos {
-        background-color: #c6c9da4b;
-        grid-column: 2;
-        height:200vh;
-    }
-    div.main div.tres {
-        background-color: #c6c9da4b;
-        grid-column: 3;
-        height:200vh;
-    }
-    div.main div.cuatro {
-        background-color: #c6c9da4b;
-        grid-column: 4;
-        height:200vh;
-    } */
 </style>
 
+<Header/>
 <div class="main">
-    <Header/>
     <About/>
     <Services/>
     <Benefits/>
     <Contact/>
-    <!-- <div class="uno"></div>
-    <div class="dos"></div>
-    <div class="tres"></div>
-    <div class="cuatro"></div> -->
 </div>
+
+<Footer/>

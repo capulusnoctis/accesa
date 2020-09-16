@@ -3,7 +3,7 @@
 </script>
 
 <style>
-    div.About {
+    section.About {
         grid-column: 1 / 5;
         margin-top: 6em;
     }
@@ -21,11 +21,11 @@
     }
 </style>
 
-<div class="About">
+<section class="About" id="NOSOTROS">
     <Title content="NOSOTROS"/>
     <div class="About-content">
         <p>
             Somos una empresa enfocada en detener el daño que se produce al medio ambiente por el desecho inadecuado del papel, plásticos y chatarras; por lo que damos a nuestros clientes un servicio de alta calidad en la recolección y reciclaje, supervisando el traslado de material a nuestro centro de reciclaje y de ahí, a su destino final.
         </p>
     </div>
-</div>
+</section>

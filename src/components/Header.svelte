@@ -6,7 +6,7 @@ import Menubar from "./Menubar.svelte";
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Karla&family=Roboto&display=swap');
-    div.Header {
+    header.Header {
         grid-column: 1 / 5;
     }
     div.Header-title h1 {
@@ -29,7 +29,7 @@ import Menubar from "./Menubar.svelte";
     }
 </style>
 
-<div class="Header">
+<header class="Header">
     <Menubar/>
     <div class="Header-title">
         <h1>Accesa <span class="highlight-blue">Reciclaje</span></h1>
@@ -40,4 +40,4 @@ import Menubar from "./Menubar.svelte";
     <div class="Header-image">
         <img src="#" alt="HERO">
     </div>
-</div>
+</header>

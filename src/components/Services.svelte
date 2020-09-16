@@ -3,7 +3,7 @@
 </script>
 
 <style>
-    div.Services {
+    section.Services {
         grid-column: 1 / 5;
         margin-top: 6em;
     }
@@ -31,7 +31,7 @@
     }
 </style>
 
-<div class="Services">
+<section class="Services" id="SERVICIOS">
     <Title content="TE APORTAMOS"/>
     <div class="Services-content">
         <ul>
@@ -59,4 +59,4 @@
         </ul>
         <iframe width="560" title="Example Video" height="315" src="https://www.youtube.com/embed/OasbYWF4_S8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-</div>
+</section>
