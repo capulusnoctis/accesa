@@ -85,8 +85,8 @@ function checkFormat() {
         </p>
         <div class="content-list">
             <div>
-                <!-- <a href="https://api.whatsapp.com/send?phone=+502-3284-2891" target="_blank"><i class="fab fa-whatsapp"></i></a> -->
-                <a href="https://api.whatsapp.com/send?phone=+502-4150-8421" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=+502-3284-2891" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <!-- <a href="https://api.whatsapp.com/send?phone=+50241" target="_blank"><i class="fab fa-whatsapp"></i></a> -->
             </div>
             <!-- <div>
                 <a href="#"><i class="fab fa-facebook"></i></a>
@@ -95,8 +95,7 @@ function checkFormat() {
                 <a href="mailto:reciclaje@accesagroup.com"><i class="fas fa-envelope"></i></a>
             </div>
             <div>
-                <!-- <a href="tel:+502-3284-2891"><i class="fas fa-phone-alt"></i></a> -->
-                <a href="tel:+502-4150-8421"><i class="fas fa-phone-alt"></i></a>
+                <a href="tel:+502-3284-2891"><i class="fas fa-phone-alt"></i></a>
             </div>
         </div>
         <p>
