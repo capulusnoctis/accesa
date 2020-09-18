@@ -23,8 +23,8 @@
     }
 </style>
 
-<Header/>
 <div class="main">
+    <Header/>
     <About/>
     <Services/>
     <Benefits/>

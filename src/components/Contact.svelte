@@ -102,7 +102,8 @@ function checkFormat() {
         <p>
             O puedes llenar el siguiente formulario:
         </p>
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="POST">
+            <input type="hidden" name="form-name" value="contact" />
             <label for="inNombre">Nombre:</label>
             <input type="text" name="name" id="inNombre" placeholder="Tu Nombre" required>
 

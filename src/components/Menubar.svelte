@@ -42,10 +42,13 @@
         color: #03045E;
         cursor: pointer;
     }
+    ul.Menubar-content img {
+        height: 6.5em;
+    }
     nav.Menubar-bar {
         background-color: #0077B6;
         color:#F3F3F3;
-        width: 40%;
+        width: 45%;
         height: 100vh;
         position: fixed;
         right: -100%;
@@ -55,13 +58,23 @@
         z-index: 5;
         border-radius: 2px;
     }
+    nav.Menubar-bar img {
+        height: 5em;
+    }
     nav.Menubar-bar li {
         list-style: none;
         text-align: center;
-        padding-top: 2em;
+        padding-top: 2.5em;
     }
     nav.Menubar-bar li:first-child, nav.Menubar-bar li:nth-child(2) {
         padding-top: 0;
+    }
+    nav.Menubar-bar li a {
+        color: #F3F3F3;
+        font-family: 'Karla', Arial, Helvetica, sans-serif;
+        font-size: 1.25em;
+        letter-spacing: 0.3em;
+        text-decoration: none;
     }
     #close_menu {
         font-size: 4em;
@@ -81,16 +94,16 @@
 </style>
 <div class="Menubar">
     <ul class="Menubar-content">
-        <li><img src="#" alt="ACCESA LOGO"></li>
+        <li><img src="https://bit.ly/3c6fld6" alt="ACCESA LOGO"></li>
         <li><i on:click={toggleMenu} class="fas fa-bars"></i></li>
     </ul>
     <nav class="Menubar-bar" data-show="0" id="Navbar">
         <li id="close_menu"><span on:click={toggleMenu}>&times;</span></li>
-        <li><img src="#" alt="LOGO CORTO"></li>
+        <li><img src="https://bit.ly/3my1P6U" alt="LOGO CORTO"></li>
         <li><a href="#NOSOTROS">NOSOTROS</a></li>
         <li><a href="#SERVICIOS">SERVICIOS</a></li>
         <li><a href="#BENEFICIOS">BENEFICIOS</a></li>
         <li><a href="#CONTACTO">CONTACTO</a></li>
     </nav>
 </div>
-<div id="overlay"></div>
+<div id="overlay" on:click={toggleMenu}></div>
