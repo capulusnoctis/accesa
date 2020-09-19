@@ -12,6 +12,15 @@
             document.querySelector('#Navbar').dataset.show = 0;
         }
     }
+    function setSelected() {
+        let anchorCollection = document.querySelectorAll('nav.Menubar-bar li a');
+        let selectedAnchor = event.target;
+        
+        for(let a of anchorCollection)
+            a.classList.style.borderBottom = '2px solid transparent';
+
+        selectedAnchor.style.borderBottom = '2px solid #F3F3F3';
+    }
 </script>
 
 <style>
@@ -20,6 +29,7 @@
         column-gap: 4%;
         grid-template-columns: repeat(4, 1fr);
         grid-column: 1 / 5;
+        padding: 0;
     }
     ul li {
         list-style: none;
@@ -33,7 +43,7 @@
     }
     ul li:last-child {
         grid-column: 4;
-        justify-content: center;
+        justify-content: flex-end;
         font-size: 1.6em;
         padding: 1em;
         align-items: center;
@@ -70,11 +80,15 @@
         padding-top: 0;
     }
     nav.Menubar-bar li a {
-        color: #F3F3F3;
+        color: inherit;
         font-family: 'Karla', Arial, Helvetica, sans-serif;
         font-size: 1.25em;
         letter-spacing: 0.3em;
         text-decoration: none;
+        padding-bottom: 1em;
+    }
+    nav.Menubar-bar li a:hover {
+        border-bottom: 2px solid #F3F3F3;
     }
     #close_menu {
         font-size: 4em;
@@ -90,6 +104,45 @@
         right: 0;
         left: 0;
         z-index: 2;
+    }
+
+    @media (min-width: 840px) {
+        nav.Menubar-bar {
+            background-color: inherit;
+            color:#0077B6;
+            width: 50%;
+            height: auto;
+            position: initial;
+            right: unset;
+            top: unset;
+            display: inline-block;
+
+            padding: 1em 2em;
+            z-index: 0;
+            border-radius: 0;
+        }
+        nav.Menubar-bar li {
+            list-style: none;
+            display: inline-block;
+            text-align: center;
+            padding-top: auto;
+        }
+        nav.Menubar-bar li a {
+            color: inherit;
+            font-family: 'Karla', Arial, Helvetica, sans-serif;
+            font-size: 1.25em;
+            letter-spacing: 0.3em;
+            text-decoration: none;
+            padding-bottom: 1em;
+        }
+        nav.Menubar-bar li a:hover {
+            border-bottom: 2px solid #0077B6;
+        }
+        ul.Menubar-content li:nth-child(2),
+        nav.Menubar-bar li:first-child,
+        nav.Menubar-bar li:nth-child(2) {
+            display: none;
+        }
     }
 </style>
 <div class="Menubar">

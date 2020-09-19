@@ -26,6 +26,12 @@ import Menubar from "./Menubar.svelte";
     }
     div.Header-image {
         text-align: center;
+        /* background-color: #f2e9d8; */
+
+    }
+    div.Header-image img {
+        width: 90%;
+
     }
 </style>
 
@@ -38,6 +44,6 @@ import Menubar from "./Menubar.svelte";
         <h2>Recolección y reciclaje de manera <span class="highlight-blue">inteligente</span>.</h2>
     </div>
     <div class="Header-image">
-        <img src="#" alt="HERO">
+        <img src="https://bit.ly/3iX1FU8" alt="HERO">
     </div>
 </header>

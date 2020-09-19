@@ -21,6 +21,15 @@
         margin: auto 4%;
         z-index: -2;
     }
+    @media (min-width: 840px) {
+        div.main {
+            display: grid;
+            column-gap: 4%;
+            grid-template-columns: repeat(12, 1fr);
+            margin: auto 100px;
+            z-index: -2;
+        }
+    }
 </style>
 
 <div class="main">
