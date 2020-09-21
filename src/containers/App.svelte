@@ -1,8 +1,5 @@
 <script>
 
-import Header from '../components/Header.svelte';
-import About from '../components/About.svelte';
-
 </script>
 
 <style>
@@ -42,8 +39,6 @@ import About from '../components/About.svelte';
 </style>
 
 <div class="main">
-    <Header/>
-    <About/>
     <div class="uno"></div>
     <div class="dos"></div>
     <div class="tres"></div>
