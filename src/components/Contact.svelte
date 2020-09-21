@@ -71,9 +71,66 @@ function checkFormat() {
         grid-template-columns: auto auto auto;
         text-align: center;
     }
-    div.content-list div i{
+    div.content-list div i {
         font-size: 47px;
         color: #0077B6;
+    }
+    .annotation {
+        display: none;
+    }
+    @media (min-width: 840px) {
+        section.Contact {
+            grid-column: 1 / 13;
+            margin-top: 6em;
+        }
+        div.Contact-content {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            column-gap: 20px;
+            font-family: 'Roboto', sans-serif;
+
+            color: #49484D;
+        }
+        div.Contact-content p {
+            text-align: center;
+        }
+        div.Contact-content p:nth-child(1) {
+            grid-column: 1 / 7;
+        }
+        div.Contact-content p:nth-child(3) {
+            grid-column: 7 / 13;
+            grid-row: 1;
+        }
+        div.Contact-content form {
+            grid-column: 7 / 13;
+            display: grid;
+            font-size: 1.35em;
+        }
+        div.content-list {
+            grid-column: 1 / 7;
+            display: block;
+            text-align: left;
+        }
+        div.content-list div {
+            margin-top: 3em;
+        }
+        div.content-list div a {
+            text-decoration: none;
+            color: #0077B6;
+            font-size: 1.35em;
+            align-items: center;
+        }
+        div.content-list div a i {
+            font-size: 47px;
+            color: #0077B6;
+        }
+        .annotation {
+            display: initial;
+            color: inherit;
+            font-family: inherit;
+            font-size: inherit;
+            padding-left: 2em;
+        }
     }
 </style>
 
@@ -85,17 +142,17 @@ function checkFormat() {
         </p>
         <div class="content-list">
             <div>
-                <a href="https://api.whatsapp.com/send?phone=+502-3284-2891" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=+502-3284-2891" target="_blank"><i class="fab fa-whatsapp"></i><span class="annotation">+502 3284 2891</span></a>
                 <!-- <a href="https://api.whatsapp.com/send?phone=+50241" target="_blank"><i class="fab fa-whatsapp"></i></a> -->
             </div>
             <!-- <div>
                 <a href="#"><i class="fab fa-facebook"></i></a>
             </div> -->
             <div>
-                <a href="mailto:reciclaje@accesagroup.com"><i class="fas fa-envelope"></i></a>
+                <a href="mailto:reciclaje@accesagroup.com"><i class="fas fa-envelope"></i><span class="annotation">reciclaje@accesagroup.com</span></a>
             </div>
             <div>
-                <a href="tel:+502-3284-2891"><i class="fas fa-phone-alt"></i></a>
+                <a href="tel:+502-3284-2891"><i class="fas fa-phone-alt"></i><span class="annotation">+502 3284 2891</span></a>
             </div>
         </div>
         <p>

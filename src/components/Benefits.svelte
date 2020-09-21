@@ -24,6 +24,37 @@ import Title from './Title.svelte';
         line-height: 130%;
         margin-bottom: 1.5em;
     }
+    @media (min-width: 840px) {
+        section.Benefits {
+            display: grid;
+            grid-template-columns: inherit;
+            column-gap: inherit;
+            width: 98.5vw;
+            margin-left: -100px;
+            padding-top: 1em;
+        }
+        div.Benefits-content {
+            grid-column: 1 / 13;
+            padding: 0;
+
+            display: inherit;
+            grid-template-columns: inherit;
+            column-gap: inherit;
+            margin: auto 100px;
+        }
+        div.Benefits-content > ul {
+            grid-column: 1 / 7;
+            padding-inline-start: 1.5em;
+        }
+        div.Benefits-content > ul li {
+            font-family: inherit;
+            font-weight: 300;
+            font-size: 1.3em;
+            text-align: left;
+            line-height: 130%;
+            margin-bottom: 1.5em;
+        }
+    }
 </style>
 
 <section class="Benefits" id="BENEFICIOS">

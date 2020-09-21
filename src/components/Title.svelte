@@ -17,6 +17,20 @@
         font-size: 2.3em;
         letter-spacing: 0.3em;
     }
+    @media (min-width: 840px) {
+        div.Title {
+            text-align: center;
+            grid-column: 1 / 13;
+        }
+        div.Title h3 {
+            grid-column: inherit;
+            color: #03045E;
+            font-family: 'Karla', sans-serif;
+            font-weight: 400;
+            font-size: 2.3em;
+            letter-spacing: 0.3em;
+        }
+    }
 </style>
 
 <div class="Title">

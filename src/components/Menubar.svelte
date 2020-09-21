@@ -107,15 +107,31 @@
     }
 
     @media (min-width: 840px) {
+        div.Menubar {
+            display: inherit;
+            grid-template-columns: inherit;
+            column-gap: inherit;
+            padding: 0;
+            grid-column: 1 / 13;
+        }
+        div.Menubar ul {
+            grid-column: 1;
+
+            display: initial;
+            grid-template-columns: unset;
+            column-gap: unset;
+            padding: 0;
+        }
         nav.Menubar-bar {
             background-color: inherit;
-            color:#0077B6;
-            width: 50%;
+            color:#03045E;
+            width: auto;
             height: auto;
             position: initial;
             right: unset;
             top: unset;
             display: inline-block;
+            grid-column: 3 / 13;
 
             padding: 1em 2em;
             z-index: 0;
@@ -125,7 +141,7 @@
             list-style: none;
             display: inline-block;
             text-align: center;
-            padding-top: auto;
+            padding: 2em 1.5em;
         }
         nav.Menubar-bar li a {
             color: inherit;
@@ -137,6 +153,7 @@
         }
         nav.Menubar-bar li a:hover {
             border-bottom: 2px solid #0077B6;
+            color: #0077B6;
         }
         ul.Menubar-content li:nth-child(2),
         nav.Menubar-bar li:first-child,
