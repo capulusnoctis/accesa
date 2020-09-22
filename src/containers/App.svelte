@@ -26,7 +26,7 @@
             display: grid;
             column-gap: 20px;
             grid-template-columns: repeat(12, 1fr);
-            margin: auto 100px;
+            margin: auto 75px;
             z-index: -2;
         }
     }

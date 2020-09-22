@@ -107,6 +107,29 @@
     }
 
     @media (min-width: 840px) {
+        div.Menubar, div.Menubar ul {
+            display: grid;
+            column-gap: 20px;
+            grid-template-columns: repeat(12, 1fr);
+            grid-column: 1 / 13;
+            padding: 0;
+        }
+        ul li {
+            list-style: none;
+            display: inline-flex;
+        }
+        ul li:first-child {
+            grid-column: 1 / 3;
+            font-size: 1em;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        ul li:last-child {
+            grid-column: 12;
+        }
+    }
+
+    @media (min-width: 1200px) {
         div.Menubar {
             display: inherit;
             grid-template-columns: inherit;
@@ -132,7 +155,7 @@
             top: unset;
             display: inline-block;
             grid-column: 3 / 13;
-
+            text-align: right;
             padding: 1em 2em;
             z-index: 0;
             border-radius: 0;
@@ -141,7 +164,7 @@
             list-style: none;
             display: inline-block;
             text-align: center;
-            padding: 2em 1.5em;
+            padding: 2em 1em;
         }
         nav.Menubar-bar li a {
             color: inherit;
