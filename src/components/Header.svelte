@@ -78,6 +78,6 @@ import Menubar from "./Menubar.svelte";
         <h2>Recolección y reciclaje de manera <span class="highlight-blue">inteligente</span>.</h2>
     </div>
     <div class="Header-image">
-        <img src="https://bit.ly/3iX1FU8" alt="HERO">
+        <img src="https://ik.imagekit.io/sekosolares/Accesa/hero_oA1Cropj2.jpg" alt="HERO">
     </div>
 </header>

@@ -67,6 +67,6 @@
         </p>
     </div>
     <div class="About-image">
-        <img src="https://bit.ly/32NFuKE" alt="IMAGEN NOSOTROS">
+        <img src="https://ik.imagekit.io/sekosolares/Accesa/about_ZcZrrV42E.jpg" alt="IMAGEN NOSOTROS">
     </div>
 </section>

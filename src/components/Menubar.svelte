@@ -187,12 +187,12 @@
 </style>
 <div class="Menubar">
     <ul class="Menubar-content">
-        <li><img src="https://bit.ly/3c6fld6" alt="ACCESA LOGO"></li>
+        <li><img src="https://ik.imagekit.io/sekosolares/Accesa/color_logo_white_xmkqjYTsv.png" alt="ACCESA LOGO"></li>
         <li><i on:click={toggleMenu} class="fas fa-bars"></i></li>
     </ul>
     <nav class="Menubar-bar" data-show="0" id="Navbar">
         <li id="close_menu"><span on:click={toggleMenu}>&times;</span></li>
-        <li><img src="https://bit.ly/3my1P6U" alt="LOGO CORTO"></li>
+        <li><img src="https://ik.imagekit.io/sekosolares/Accesa/logo_white_notext_nobackground_4ObdTO-N7.png" alt="LOGO CORTO"></li>
         <li><a href="#NOSOTROS">NOSOTROS</a></li>
         <li><a href="#SERVICIOS">SERVICIOS</a></li>
         <li><a href="#BENEFICIOS">BENEFICIOS</a></li>
