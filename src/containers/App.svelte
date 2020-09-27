@@ -1,14 +1,10 @@
 <script>
-<<<<<<< HEAD
-
-=======
     import Header from '../components/Header.svelte';
     import About from '../components/About.svelte';
     import Services from '../components/Services.svelte';
     import Benefits from '../components/Benefits.svelte';
     import Contact from '../components/Contact.svelte';
     import Footer from '../components/Footer.svelte';
->>>>>>> reciclaje
 </script>
 
 <style>
