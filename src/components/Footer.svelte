@@ -1,6 +1,6 @@
 <style>
     footer.Footer {
-        margin-top: 6em;
+        margin-top: 10em;
         color: #F3F3F3;
         background-color: #49484D;
         position: relative;

@@ -5,7 +5,8 @@
 <style>
     section.About {
         grid-column: 1 / 5;
-        margin-top: 6em;
+        margin-top: 12em;
+        padding-top: 3em;
     }
     div.About-content {
         font-family: 'Roboto', sans-serif;

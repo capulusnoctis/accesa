@@ -5,7 +5,8 @@
 <style>
     section.Services {
         grid-column: 1 / 5;
-        margin-top: 6em;
+        margin-top: 12em;
+        padding-top: 3em;
     }
     div.Services-content {
         font-family: 'Roboto', sans-serif;
@@ -33,7 +34,6 @@
     @media (min-width: 840px) {
         section.Services {
             grid-column: 1 / 13;
-            margin-top: 6em;
         }
         div.Services-content {
             display: grid;

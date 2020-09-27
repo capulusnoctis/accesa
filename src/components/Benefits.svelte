@@ -5,8 +5,8 @@ import Title from './Title.svelte';
 <style>
     section.Benefits {
         grid-column: 1 / 5;
-        margin-top: 6em;
-        padding-top: 2em;
+        margin-top: 12em;
+        padding-top: 3em;
         
         background-color: #0077B6;
     }
@@ -31,7 +31,6 @@ import Title from './Title.svelte';
             column-gap: inherit;
             width: 98.5vw;
             margin-left: -100px;
-            padding-top: 1em;
         }
         div.Benefits-content {
             grid-column: 1 / 13;

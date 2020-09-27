@@ -13,7 +13,8 @@ function checkFormat() {
 <style>
     section.Contact {
         grid-column: 1 / 5;
-        margin-top: 6em;
+        margin-top: 12em;
+        padding-top: 3em;
     }
     div.Contact-content {
         font-family: 'Roboto', sans-serif;
@@ -81,7 +82,6 @@ function checkFormat() {
     @media (min-width: 840px) {
         section.Contact {
             grid-column: 1 / 13;
-            margin-top: 6em;
         }
         div.Contact-content {
             display: grid;
